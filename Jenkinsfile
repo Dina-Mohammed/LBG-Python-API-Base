@@ -6,7 +6,7 @@ pipeline {
         GCR_URL = 'gcr.io/lbg-mea-18/dm-week3-project'
     }
     stages {
-        stage('Build & Push to GCR') {
+        stage('Build and Push to GCR') {
     steps {
         script {
             // Authenticate with Google Cloud
