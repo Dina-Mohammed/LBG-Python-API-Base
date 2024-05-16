@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         GCR_CREDENTIALS_ID = 'jenkins-id' // The ID you provided in Jenkins credentials
-        IMAGE_NAME = 'bc5ebd3b24ec'
+        IMAGE_NAME = 'dm-image'
         GCR_URL = 'gcr.io/lbg-mea-18/dm-week3-project'
     }
     stages {
